@@ -1,0 +1,137 @@
+:root{
+    --blue: #0A3871;
+    --inter-font:"Inter",san-serif;
+}
+
+html{
+    font-size: 62.5% ;
+}
+
+body{
+    background-color: rgb(245, 242, 238);
+    font-size: var(--inter-font);
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+header img{
+    width: 120px;
+    height: 48px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80dvh;
+}
+
+.formulario_input{
+    width: 100%;
+    max-width: 570px;
+    border-color: transparent;
+    background: transparent;
+    outline: none;
+    font-family: "inter";
+    height: 50dvh;
+    font-size: var(--inter-font);
+    font-size:3.2rem;
+    color: var(--blue);
+   margin-bottom: 3rem;
+   overflow: auto;
+   
+}
+
+::placeholder{
+    color: var(--blue);
+}
+
+
+.alerta{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: 1.4rem;
+}
+
+.btn{
+    background-color: #0A3871;
+    color: white;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+
+
+}
+
+.btn_22{
+    background-color: #666e79;
+    color: white;
+    
+}
+
+.btn_3{
+    background-color: #666e79;
+    color: white;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+}
+
+.lado{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    height: 90dvh;
+    max-width: 40rem;
+    border-radius: 32px;
+    width: 40rem;
+
+}
+
+.lado_lupa{
+    display:block;
+}
+
+
+
+@media screen and(max-width:760px){
+    main{
+        flex-direction: column;
+    }
+    .lado{
+        height: auto;
+        max-width: 624px;
+        margin-top: 2rem;
+        min-height: 186px;
+    }
+    .lado_lupa{
+        display: none;
+    }
+    header img{
+        width: 70px;
+    }
+}
+
+.hidden{
+    display: none;
+}
+
+.lado_Titulo{
+    font-size: 25px;
+}
+
+.lado_texto{
+    font-size: 25px;
+}

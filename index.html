@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Challenge</title>
+    <link rel="stylesheet" href="./Styles/Styles.css"> 
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+   </head>
+<body>
+    <header>
+        <img src="/assets/Alura-Logo.svg" alt="Alura-Logo">
+    </header>
+   <main>        
+
+    <form class="formulario"> 
+    <textarea class="formulario_input" name=""  id=""  cols="30" rows="10" placeholder=" ingrese el texto"></textarea>
+    
+    <div class="container">
+    <div class="btn_container">
+        <div class=" alerta" ><img src="/assets/Alert.svg" alt="alerta"><span>solo letras minusculas y sin acentos</span></div>
+    </div>
+
+    <input class="btn" type="submit" value="Encriptador"> 
+    <input class="btn btn_22" type="submit" value="Desencriptar"> 
+</div>
+</form>
+
+<aside class="lado">
+
+    <img src="/img/Lupa.png" alt="" class="lado_lupa">
+    <div class="lado_container">
+        <h3 class="lado_Titulo"> Ningun mensaje fue encontrado </h3>
+        <p class="lado_texto"> Ingresa el texto que deseas Encriptar o Desencriptar </p>
+        <button class=" copiarBtn btn_3 hidden"  >
+            copiar
+        </button>
+    </div>
+
+   </aside>
+
+   </main>
+
+   <script src="/encriptar.js"></script>
+   
+
+</body>
+</html>
